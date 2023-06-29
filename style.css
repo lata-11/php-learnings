@@ -1,0 +1,39 @@
+.container {
+    max-width: 80%;
+    background-color: plum;
+    margin: auto;
+    padding: 34px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container h3, p{
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.form input, textarea {
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 1%;
+    
+}
+.button {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.btn {
+    padding: 4.4%;
+    margin-left: 4%;
+    background-color: bisque;
+}
